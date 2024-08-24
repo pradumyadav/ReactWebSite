@@ -1,0 +1,183 @@
+import { FaLinkedinIn } from 'react-icons/fa';
+import { RiTwitterXFill } from 'react-icons/ri';
+import { FaFacebookF } from 'react-icons/fa';
+import Footer from '../components/Footer';
+import AboutNavbar from '../components/AboutNavbar';
+import FourGridItem from '../components/FourGridItem';
+import InfoCard from '../components/InfoCard';
+import Card from '../components/Card';
+
+export default function Coaching() {
+    const imageArr = [
+        '/assets/images/20.jpg',
+        '/assets/images/21.jpg',
+        '/assets/images/22.jpg',
+        '/assets/images/23.jpg',
+        '/assets/images/24.jpg',
+        '/assets/images/25.jpg',
+        '/assets/images/27.jpg',
+        '/assets/images/28.jpg',
+        '/assets/images/29.jpg',
+        '/assets/images/30.jpg',
+        '/assets/images/31.jpg',
+        '/assets/images/32.jpg',
+        '/assets/images/33.jpg',
+        '/assets/images/34.jpg',
+        '/assets/images/35.jpg',
+        '/assets/images/36.jpg',
+        '/assets/images/37.jpg',
+        '/assets/images/38.jpg',
+        '/assets/images/39.jpg',
+        '/assets/images/40.jpg',
+        '/assets/images/41.jpg',
+    ];
+    return (
+        <>
+            <AboutNavbar />
+            <div className="flex flex-col w-full items-center">
+                <div className='w-full h-96 flex flex-col items-center justify-center relative'>
+                    <div className='w-full h-full flex items-center justify-center bg-blue-100'>
+                        <img src="/assets/images/189.png" className='w-full h-full object-cover' alt="" />
+                    </div>
+                    <div className='w-full py-10 px-20 h-full flex flex-col items-start justify-center gap-4 absolute top-0 left-0'>
+                        <h2 className="text-5xl font-serif font-semibold text-black mb-2">
+                            Coaching
+                        </h2>
+                        <p className='w-1/3 text-xl'>
+                            Navigating rapidly changing markets to promote innovation, capture new opportunities, and create value
+                        </p>
+                    </div>
+                </div>
+                <div className="w-4/5 flex flex-col items-center justify-center gap-10 mt-10">
+                    <div className='w-full h-auto grid grid-cols-3 gap-10 place-content-center place-items-center'>
+                        <div className='h-96 w-auto flex flex-col items-center justify-center shadow-2xl rounded-2xl p-6 border-2'>
+                            <h3 className="text-2xl font-semibold">
+                                Tourism
+                            </h3>
+                            <p className='text-lg text-center w-full'>
+                                How we help clients:
+                                In the dynamic tourism sector, our team partners with clients to optimize their operations, enhance customer experiences, and expand their global reach. We provide tailored strategies that address emerging trends such as sustainable tourism, digital transformation, and new market entry.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center gap-4">
+                        <a
+                            href="#"
+                            className="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white"
+                        >
+                            <FaLinkedinIn />
+                        </a>
+                        <a
+                            href="#"
+                            className="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white"
+                        >
+                            <RiTwitterXFill />
+                        </a>
+                        <a
+                            href="#"
+                            className="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white"
+                        >
+                            <FaFacebookF />
+                        </a>
+                    </div>
+                </div>
+                <div className="flex justify-center">
+                    <div className="grid grid-cols-2 gap-8 max-w-5xl mx-auto p-5 w-4/5">
+                        <FourGridItem
+                            title={'About Amit Mittal'}
+                            description={
+                                'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses....'
+                            }
+                            link={'/about'}
+                            linkText={'See About Amit Mittal'}
+                        />
+                        <FourGridItem
+                            title="Enablement Team"
+                            description={
+                                'Our Enablement Team is a global leadership body that accelerates the delivery of our client service and people mission. The team connects leaders of regions and key capabilities, such as People & Diversity, Risk & Resilience, and Finance, to support our firm&apos;s performance and health.'
+                            }
+                            link={'/about'}
+                            linkText={'See Members'}
+                        />
+                        <FourGridItem
+                            title="Our Leadership"
+                            description={
+                                'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses.During these years, Amit has developed a passion for and played an important role in defining key business strategies to help companies aggressively.'
+                            }
+                            link={'/about'}
+                            linkText={'See Members'}
+                        />
+                        <FourGridItem
+                            title={'Practice Leadership'}
+                            description={
+                                'Our practices serve clients across most capabilities and industries. The global leaders of each are responsible for delivering client impact, developing knowledge and capabilities, innovating, and developing our people. They work closely with regional leaders and many others to deliver positive, enduring change to our clients and stakeholders.'
+                            }
+                            link={'/about'}
+                            linkText={'See Members'}
+                        />
+                    </div>
+                </div>
+                <InfoCard
+                    title="Amit Mittal"
+                    subtitle="Managing Director"
+                    order="flex-row items-center"
+                    image="/assets/images/80.jpg"
+                    description={[
+                        "Amit has more than 25 years of experience in growing business and delivering consistent results. He is a business coach who has helped many businesses achieve their goals and accomplished tremendous growth in sales, marketing, team training, strategic planning, and much more. Amit has a result-driven approach and focuses on the development of the business and it's owner as well. He uses defined business strategies that boost business growth. As an accomplished business coach and proven track record for transforming business and lives,  Amit is all set to assist eager business owners to achieve their desired dreams and goals.",
+                        'Amit served the family business before moving out and finding success in the business world. Amit is a proud husband and father of two amazing daughters. He is a business accelerator with critical business knowledge and tools from ActionCoach, and has an MBA from a top-ranked global business schools - NYU-Stern, LSE, and HEC Paris. Amit is on a mission to create wealth and grow 20,000 enterprises and touch 100,000 lives in the next 20 years.',
+                    ]}
+                />
+                <InfoCard
+                    title="Our Inspiration"
+                    subtitle=""
+                    order="flex-row-reverse items-center"
+                    image="/assets/images/98.jpg"
+                    description={[
+                        'Accelerating Sustainable and Inclusive Growth',
+                        'Accelerating Sustainable and Inclusive Growth We’ve always been big believers in the growth potential of our clients. Today, we’re privileged to work with organizations that are on a new growth journey, one that pursues sustainability, inclusion, and economic growth, all at the same time.',
+                    ]}
+                />
+                <div className="w-5/6 grid grid-cols-4 gap-6 pb-10">
+                    <Card
+                        title="Our Leadership"
+                        image="/assets/images/47.jpg"
+                        description={
+                            'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses.During these years, Amit has developed a passion for and played an important role in defining key business strategies to help companies aggressively.'
+                        }
+                        link={'/about'}
+                        linkText={'See Members'}
+                    />
+                    <Card
+                        title="Our Leadership"
+                        image="/assets/images/47.jpg"
+                        description={
+                            'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses.During these years, Amit has developed a passion for and played an important role in defining key business strategies to help companies aggressively.'
+                        }
+                        link={'/about'}
+                        linkText={'See Members'}
+                    />
+                    <Card
+                        title="Our Leadership"
+                        image="/assets/images/47.jpg"
+                        description={
+                            'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses.During these years, Amit has developed a passion for and played an important role in defining key business strategies to help companies aggressively.'
+                        }
+                        link={'/about'}
+                        linkText={'See Members'}
+                    />
+                    <Card
+                        title="Our Leadership"
+                        image="/assets/images/47.jpg"
+                        description={
+                            'Amit has over 26 years of business & professional experience in go-to-market strategies, business growth, performance improvement, international supply chain and product sourcing, and operations excellence roles with international retail, brand, and manufacturing-centric businesses.During these years, Amit has developed a passion for and played an important role in defining key business strategies to help companies aggressively.'
+                        }
+                        link={'/about'}
+                        linkText={'See Members'}
+                    />
+                </div>
+            </div>
+            <Footer />
+        </>
+    );
+}
