@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AboutNavbar from '../components/AboutNavbar';
 import Footer from '../components/Footer';
-import vid1 from '/assets/images/402.mp4';
+import vid1 from '/assets/images/344.mp4';
 import AboutVideo from '../components/AboutVideo';
 import TechnicalConsulting from '../components/TechnicalConsulting';
 import ManpowerPlanning from '../components/ManpowerPlanning';
